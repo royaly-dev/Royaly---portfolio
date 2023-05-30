@@ -9,6 +9,12 @@
     scroll-behavior: smooth;
 }
 
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1500px) {
   /*navabr*/
 
@@ -332,11 +338,13 @@ transform: scale(1.1);
 /*fin section projet*/
 
 /*section footer*/
+
 .footer {
   width: 100%;
   background-color: cornflowerblue;
-  padding: 15px 0px;
   margin-top: 25px;
+  margin-bottom: 0;
+  padding: 15px 0;
 }
 
 .footer-text h1{
@@ -351,6 +359,8 @@ transform: scale(1.1);
   text-align: center;
 }
 }
+
+/*fin footer*/
 
 @media screen and (max-width: 1164px) {
   .st-home img {
