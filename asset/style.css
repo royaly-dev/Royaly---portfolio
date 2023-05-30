@@ -48,6 +48,15 @@ li {
   text-align: center;
 }
 
+.nav-link-ul li {
+  transition: 1s;
+}
+
+.nav-link-ul li:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+}
+
 .nav-link {
   align-items: center;
   display: flex;
