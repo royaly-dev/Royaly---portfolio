@@ -367,6 +367,14 @@ transform: scale(1.1);
   .st-home img {
     display: none;
   }
+
+  .projet-pro {
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .st-projet {
+    padding: 64px 80px;
+  }
 }
 
 @media screen and (max-width: 769px) {
